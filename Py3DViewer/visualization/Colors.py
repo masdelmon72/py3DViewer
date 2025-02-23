@@ -3,14 +3,14 @@ import numpy as np
 
 class colors:
     
-    teal = np.array([1, 212, 180],dtype=float) / 255 # Changed np.float to float
+    teal = np.array([1, 212, 180],dtype=float64) / 255 # Changed np.float to float
     black = np.array([0, 0, 0],dtype=float) / 255 # Changed np.float to float
-    orange = np.array([255, 165, 0], dtype=float) / 255 # Changed np.float to float
-    blue = np.array([0, 0, 255], dtype=float) / 255 # Changed np.float to float
-    red = np.array([255, 0, 0], dtype=float) / 255 # Changed np.float to float
-    green = np.array([0, 255, 0], dtype=float) / 255 # Changed np.float to float
-    white = np.array([255, 255, 255], dtype=np.float) / 255
-    purple = np.array([255, 0, 255], dtype=np.float) / 255
+    orange = np.array([255, 165, 0], dtype=float64) / 255 # Changed np.float to float
+    blue = np.array([0, 0, 255], dtype=float64) / 255 # Changed np.float to float
+    red = np.array([255, 0, 0], dtype=float64) / 255 # Changed np.float to float
+    green = np.array([0, 255, 0], dtype=float64) / 255 # Changed np.float to float
+    white = np.array([255, 255, 255], dtype=np.float64) / 255
+    purple = np.array([255, 0, 255], dtype=np.float64) / 255
 
 
     
